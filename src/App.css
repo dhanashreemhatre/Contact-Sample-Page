@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,800&display=swap');
+
+*{
+  margin: 0;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-height: 72px;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+}
+
+.contact-head{
+  padding: 4% 12%;
+  max-height: calc(100dvh-72px);
+}
+
+.contact-head h1{
+  font-size: 48px;
+line-height: 72px;
+  font-weight: 800;
+}
+.contact-head p{
+  font-size: 16px;
+line-height: 24px;
+  font-weight: 600;
+  color: var(--gray);
+}
+.contact-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form{
+  width: 100%;
+}
+.contact-content img{
+  height: 530px;
+  width: 550px;
+}
+.btn{
+  all: unset;
+  padding: 10px 18px;
+  border-radius: 5px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.help-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  max-width: 472px;
+}
+.help-buttons .half-buttons{
+  display: flex;
+  gap: 32px;
+}
+.help-buttons .half-buttons button{
+  width: 40%;
+}
+.help-buttons .form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.help-buttons .form input{
+  padding: 12px 16px;
+}
+.help-buttons button{
+   color: rgb(255, 255, 255);
+   background-color: black;
+   border: 1px solid black;
+}
+@media screen and (min-width:1200px) {
+  nav{
+    padding: 0 100px;
+  }
+  
+}
